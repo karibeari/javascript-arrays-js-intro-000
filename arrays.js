@@ -6,6 +6,6 @@ function addElementToBeginningOfArray(newArray, bar){
 }
 
 function destructivelyAddElementToEndOfArray(chocolateBars, bar){
-  moreChocolateBars = ['twix'...chocolateBars];
+  moreChocolateBars = [bar...chocolateBars];
   return moreChocolateBars;
 }
