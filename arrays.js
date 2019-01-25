@@ -5,7 +5,7 @@ function addElementToBeginningOfArray(array, newElement){
   return array;
 }
 
-function destructivelyAddElementToEndOfArray(chocolateBars, bar){
-  moreChocolateBars = [bar...chocolateBars];
-  return moreChocolateBars;
+function destructivelyAddElementToEndOfArray(array, newElement){
+  newArray = [newElement...array];
+  return newArray;
 }
